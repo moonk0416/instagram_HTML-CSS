@@ -1,10 +1,124 @@
-h2 {
-    color: red;
+body {
+    margin: 3%;
+}
+button {
+    font-size: 150%;
+    border: none;
+    /* height: 40px; */
+    height: 4vh;
+    width: 85vw;
+    float: left;
+}
+i {
+    color: gray;
+}
+p {
+    font-size: 2vw;
+}
+
+#id {
+    font-size: 40px;
+    font-weight: 800;
+    /* padding-bottom: 10vh; */
+    /* text-align: left; */
+}
+
+#top {
+    display: grid;
+    grid-template-columns: 1fr 10fr 2fr 2fr;
+    height: 50px;
+    /* margin-bottom: vh; */
+    /* border: solid 1px red; */
+}
+#top div {
+    text-align: left;
+}
+
+#top i {
+    text-align: right;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0.7vh;
+    /* margin-bottom: 4%; */
+}
+
+#stat_bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 25px;
+    /* border: solid 1px red; */
+}
+#profile_pic {
+    width: 15vw;
+    height: 15vw;
+    
+}
+.main_pic {
+    border: solid white 1px;
+    border-radius: 50%;    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.stat {
+    text-align: center;
+    margin-top: 21%;
+    font-size: 2.2vw;
+}
+
+#profile_info {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    /* width: 100%; */
+    height: 3vh;
+    /* margin-bottom: 3%; */
+}
+#profile_info i {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 2vh;
+}
+
+.highlight_pic {
+    width: 10vw;
+    height: 10vw;
+}
+#highlight_area {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 7fr;
+    margin-top: 4%;
 }
 .highlight {
-    border:solid;
+    text-align: center;
+    margin-bottom: 50px;
 }
-#profile {
-    border: solid;
-    border-color: blue;
+.circle_pic {
+    border: solid grey 2px;
+    border-radius: 50%;
+
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
 }
+
+#select {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    font-size: 5vw;
+    height: 7vh;
+}
+#posting {
+    margin-top: 2vh;
+}
+.thumbnail_grid {
+    margin-left: 0.4%;
+}
+.thumbnail {
+    width: 30.5vw;
+}
+
+
+
